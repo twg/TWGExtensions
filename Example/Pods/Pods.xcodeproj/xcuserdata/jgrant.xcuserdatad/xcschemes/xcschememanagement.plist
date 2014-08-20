@@ -14,22 +14,12 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-Tests-Expecta+Snapshots.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>Pods-Tests-Expecta.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
 		<key>Pods-Tests-FBSnapshotTestCase.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>Pods-Tests-Specta.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -47,42 +37,32 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>03CF2E4A8D86496CB0721D0A</key>
+		<key>1928F106BCBA49F6890D45CF</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>11C7CDBF10BC4ADC8641025D</key>
+		<key>1E5F1AE3743B4576B91EA20C</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>1D5A2E86291F4BF6A4EB0352</key>
+		<key>351EA984184A4D519182FF48</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>357334C8CB9A4B3DAFE508CB</key>
+		<key>976ABC2C091B48ACB2E68166</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>561FD6B7E59348A7AAEE4488</key>
+		<key>9D669A1F4FF7485E9B0C49E8</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>5642A72742FB41A1ABBB7065</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>800A79ED45BC491A97ED0C93</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>8E1E5B1437174F51B8A4FF2A</key>
+		<key>DF6E473A7EFC4D16A26DEDF6</key>
 		<dict>
 			<key>primary</key>
 			<true/>

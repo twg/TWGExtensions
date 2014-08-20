@@ -1,16 +1,9 @@
-//
-//  UITableViewCell+TSNHeight.m
-//  TSNGolf
-//
-//  Created by John Grant on 2014-03-10.
-//  Copyright (c) 2014 TSN. All rights reserved.
-//
 
-#import "UITableViewCell+TSNHeight.h"
+#import "UITableViewCell+TWGHeight.h"
 
-@implementation UITableViewCell (TSNHeight)
+@implementation UITableViewCell (TWGHeight)
 
-- (CGFloat)heightInWidth:(CGFloat)width decorationBlock:(void(^)(void))decoration
+- (CGFloat)twg_heightInWidth:(CGFloat)width decorationBlock:(void(^)(void))decoration
 {
     // Adjust the cell frame for the current tableview width
     CGRect frame = self.frame;

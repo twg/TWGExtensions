@@ -1,16 +1,9 @@
-//
-//  UIImage+Extensions.m
-//  TSN Hockey
-//
-//  Created by Brian Gilham on 12/30/2013.
-//  Copyright (c) 2013 TSN. All rights reserved.
-//
 
-#import "UIImage+Extensions.h"
+#import "UIImage+TWGSizing.h"
 
-@implementation UIImage (Extensions)
+@implementation UIImage (TWGSizing)
 
-- (UIImage *)resizedImageToSize:(CGSize)destinationSize
+- (UIImage *)twg_resizedImageToSize:(CGSize)destinationSize
 {
     CGImageRef sourceImageRef = self.CGImage;
     CGSize sourceImageSize = CGSizeMake(CGImageGetWidth(sourceImageRef), CGImageGetHeight(sourceImageRef));
@@ -104,7 +97,7 @@
     }
 }
 
-- (UIImage *)resizedImageToFitInSize:(CGSize)boundingSize scaleIfSmaller:(BOOL)scale
+- (UIImage *)twg_resizedImageToFitInSize:(CGSize)boundingSize scaleIfSmaller:(BOOL)scale
 {
     CGImageRef sourceImageRef = self.CGImage;
     CGSize sourceImageSize = CGSizeMake(CGImageGetWidth(sourceImageRef), CGImageGetHeight(sourceImageRef));
@@ -138,7 +131,7 @@
         }
     }
     
-    return [self resizedImageToSize:destinationImageSize];
+    return [self twg_resizedImageToSize:destinationImageSize];
 }
 
 @end

@@ -1,16 +1,9 @@
-//
-//  NSArray+GolfExtensions.m
-//  TSNGolf
-//
-//  Created by John Grant on 2/14/2014.
-//  Copyright (c) 2014 TSN. All rights reserved.
-//
 
-#import "NSArray+GolfExtensions.h"
+#import "NSArray+TWGGroup.h"
 
-@implementation NSArray (GolfExtensions)
+@implementation NSArray (TWGGroup)
 
-- (NSArray *)sortWithDescriptor:(NSSortDescriptor *)sortDescriptor andGroupBy:(NSString *(^)(id))block
+- (NSArray *)twg_sortWithDescriptor:(NSSortDescriptor *)sortDescriptor andGroupBy:(NSString *(^)(id))block
 {
     NSParameterAssert(sortDescriptor);
     NSParameterAssert(block);

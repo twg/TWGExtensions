@@ -1,16 +1,9 @@
-//
-//  UILabel+TWGDrawing.m
-//  TSNGolf
-//
-//  Created by John Grant on 2014-05-05.
-//  Copyright (c) 2014 TSN. All rights reserved.
-//
 
-#import "UILabel+TWGDrawing.h"
+#import "UILabel+TWGHeight.h"
 
-@implementation UILabel (TWGDrawing)
+@implementation UILabel (TWGHeight)
 
-- (CGFloat)TWG_preferredHeightInWidth:(CGFloat)width
+- (CGFloat)twg_preferredHeightInWidth:(CGFloat)width
 {
     CGSize size = CGSizeMake(width, HUGE_VALF);
     NSDictionary *attributes = @{ NSFontAttributeName: self.font };

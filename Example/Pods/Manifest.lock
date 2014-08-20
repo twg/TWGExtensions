@@ -15,6 +15,6 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   Expecta: 03aabd0a89d8dea843baecb19a7fd7466a69a31d
   FBSnapshotTestCase: 9053afee1d66b4c7c313fcb0ae582a5e47bea9d0
-  TWGExtensions: b6706362218212d612a7735dd2bcb22406daf5a7
+  TWGExtensions: 5aa5d57fe6e08def9fc6bd8e6bae689b42d3fae4
 
 COCOAPODS: 0.33.1

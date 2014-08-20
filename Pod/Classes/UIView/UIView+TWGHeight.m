@@ -1,16 +1,9 @@
-//
-//  UIView+TSNHeight.m
-//  TSNGolf
-//
-//  Created by John Grant on 2014-03-11.
-//  Copyright (c) 2014 TSN. All rights reserved.
-//
 
-#import "UIView+TSNHeight.h"
+#import "UIView+TWGHeight.h"
 
-@implementation UIView (TSNHeight)
+@implementation UIView (TWGHeight)
 
-- (void)forceLayoutInWidth:(CGFloat)width
+- (void)twg_forceLayoutInWidth:(CGFloat)width
 {
     CGRect frame = self.frame;
     frame.size.width = width;

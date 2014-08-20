@@ -1,10 +1,10 @@
-#import "UIColor+Extensions.h"
+#import "UIColor+TWGHex.h"
 
-@implementation UIColor (Extensions)
+@implementation UIColor (TWGHex)
 
 // Assumes input like "#00FF00" (#RRGGBB)
-+ (UIColor *)colorFromHexString:(NSString *)hexString
-                       andAlpha:(float)alpha
++ (UIColor *)twg_colorFromHexString:(NSString *)hexString
+                           andAlpha:(float)alpha
 {
     if (!hexString){
         return nil;
@@ -19,7 +19,7 @@
                            alpha:alpha];
 }
 
-- (UIColor *)colorWithChangedAlpha:(float)alpha;
+- (UIColor *)twg_colorWithChangedAlpha:(float)alpha;
 {
     CGFloat r, g, b, a;
     [self getRed:&r green:&g blue:&b alpha:&a];

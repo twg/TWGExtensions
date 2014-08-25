@@ -3,6 +3,6 @@
 
 @interface UIImage (TWGColor)
 
-- (UIImage *)twg_tintedImageWithColor:(UIColor *)tintColor
+- (UIImage *)twg_tintedImageWithColor:(UIColor *)tintColor;
 
 @end

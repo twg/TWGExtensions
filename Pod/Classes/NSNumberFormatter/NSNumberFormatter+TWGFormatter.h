@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSNumberFormatter (CLSShared)
+@interface NSNumberFormatter (TWGFormatter)
 
 + (instancetype)currencyFormatter;
 

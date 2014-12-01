@@ -8,7 +8,7 @@
 
 #import "NSDateFormatter+Shared.h"
 
-@implementation NSDateFormatter (Shared)
+@implementation NSDateFormatter (TWGFormatter)
 
 + (NSDateFormatter *)ISO8601
 {

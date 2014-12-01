@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UIDevice (CLSDevice)
+@interface UIDevice (TWGDevice)
 
 + (BOOL)isPhone;
 + (BOOL)isPad;

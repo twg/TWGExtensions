@@ -8,7 +8,7 @@
 
 #import "UIDevice+CLSDevice.h"
 
-@implementation UIDevice (CLSDevice)
+@implementation UIDevice (TWGDevice)
 
 + (BOOL)isPhone
 {

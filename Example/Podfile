@@ -7,4 +7,6 @@ target 'Tests', :exclusive => true do
 
   pod 'Expecta'
   pod 'FBSnapshotTestCase'
+  pod 'OCMock'
+  
 end

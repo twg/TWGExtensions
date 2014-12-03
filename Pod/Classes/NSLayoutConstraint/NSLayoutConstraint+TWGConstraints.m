@@ -6,7 +6,7 @@
 //  Copyright (c) 2014 The Working Group. All rights reserved.
 //
 
-#import "NSLayoutConstraint+CLSConstraint.h"
+#import "NSLayoutConstraint+TWGConstraints.h"
 
 @implementation NSLayoutConstraint (TWGConstraints)
 

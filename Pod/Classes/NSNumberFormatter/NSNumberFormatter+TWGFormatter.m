@@ -6,7 +6,7 @@
 //  Copyright (c) 2014 The Working Group. All rights reserved.
 //
 
-#import "NSNumberFormatter+CLSShared.h"
+#import "NSNumberFormatter+TWGFormatter.h"
 
 @implementation NSNumberFormatter (TWGFormatter)
 

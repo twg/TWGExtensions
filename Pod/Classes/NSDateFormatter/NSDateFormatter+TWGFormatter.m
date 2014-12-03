@@ -6,7 +6,7 @@
 //  Copyright (c) 2014 The Working Group. All rights reserved.
 //
 
-#import "NSDateFormatter+Shared.h"
+#import "NSDateFormatter+TWGFormatter.h"
 
 @implementation NSDateFormatter (TWGFormatter)
 

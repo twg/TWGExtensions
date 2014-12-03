@@ -6,7 +6,7 @@
 //  Copyright (c) 2014 COOLS. All rights reserved.
 //
 
-#import "UIDevice+CLSDevice.h"
+#import "UIDevice+TWGDevice.h"
 
 @implementation UIDevice (TWGDevice)
 

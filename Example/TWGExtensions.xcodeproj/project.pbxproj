@@ -26,6 +26,7 @@
 		9E890D971A2F7E2A00C81C50 /* TWGGridLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E890D931A2F7E2A00C81C50 /* TWGGridLayout.m */; };
 		9E890D981A2F7E2A00C81C50 /* TWGProductGridViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E890D951A2F7E2A00C81C50 /* TWGProductGridViewController.m */; };
 		9E890D9E1A2FAE0900C81C50 /* TWGNotificationObserverTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E890D9D1A2FAE0900C81C50 /* TWGNotificationObserverTests.m */; };
+		9E890DA01A2FB0B200C81C50 /* TWGKVOControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E890D9F1A2FB0B200C81C50 /* TWGKVOControllerTests.m */; };
 		AA26F3ACB7E34F1E8DF8F5F1 /* libPods-Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0905E45C67C047CCB65709CD /* libPods-Tests.a */; };
 		E606284968A849F19A4E7A0E /* libPods-TWGExtensions.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 326B5C2DFB2941B4866B8BA4 /* libPods-TWGExtensions.a */; };
 /* End PBXBuildFile section */
@@ -75,6 +76,7 @@
 		9E890D941A2F7E2A00C81C50 /* TWGProductGridViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWGProductGridViewController.h; sourceTree = "<group>"; };
 		9E890D951A2F7E2A00C81C50 /* TWGProductGridViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWGProductGridViewController.m; sourceTree = "<group>"; };
 		9E890D9D1A2FAE0900C81C50 /* TWGNotificationObserverTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWGNotificationObserverTests.m; sourceTree = "<group>"; };
+		9E890D9F1A2FB0B200C81C50 /* TWGKVOControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWGKVOControllerTests.m; sourceTree = "<group>"; };
 		B13633DAE7C94FAF8A18A0DB /* TWGExtensions.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TWGExtensions.podspec; path = ../TWGExtensions.podspec; sourceTree = "<group>"; };
 		C7B1C2C9CE5523CD6193EF56 /* Pods-TWGExtensions.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TWGExtensions.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TWGExtensions/Pods-TWGExtensions.debug.xcconfig"; sourceTree = "<group>"; };
 		F323BAE25C284DB9A3267FF5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
@@ -189,6 +191,7 @@
 				9E890D8E1A2F7E1C00C81C50 /* TWGGridViewControllerTests.m */,
 				9E890D9D1A2FAE0900C81C50 /* TWGNotificationObserverTests.m */,
 				6003F5B6195388D20070C39A /* Supporting Files */,
+				9E890D9F1A2FB0B200C81C50 /* TWGKVOControllerTests.m */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -394,6 +397,7 @@
 			files = (
 				9E890D8F1A2F7E1C00C81C50 /* TWGGridViewControllerTests.m in Sources */,
 				9E890D9E1A2FAE0900C81C50 /* TWGNotificationObserverTests.m in Sources */,
+				9E890DA01A2FB0B200C81C50 /* TWGKVOControllerTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

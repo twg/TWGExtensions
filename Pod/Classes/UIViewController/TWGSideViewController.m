@@ -12,7 +12,8 @@
 @property (nonatomic, assign) BOOL closeByUserAction;
 @end
 
-static CGFloat TWGSideViewFadeViewTargetAlpha = 0.5f;
+static CGFloat TWGSideViewFadeViewTargetAlphaDefault = 0.5f;
+static CGFloat TWGSideViewContentBackgroundViewAlphaDefault = 0.8f;
 
 @implementation TWGSideViewController
 
@@ -25,6 +26,8 @@ static CGFloat TWGSideViewFadeViewTargetAlpha = 0.5f;
         _style = style;
         _viewController = viewController;
         _openWidth = openWidth;
+        _sideViewTargetAlpha = TWGSideViewFadeViewTargetAlphaDefault;
+        _contentBackgroundViewAlpha = TWGSideViewContentBackgroundViewAlphaDefault;
     }
     return self;
 }
@@ -45,7 +48,7 @@ static CGFloat TWGSideViewFadeViewTargetAlpha = 0.5f;
     self.contentBackgroundView = [[UIView alloc] initWithFrame:[self targetContentRect]];
     self.contentBackgroundView.autoresizingMask = [self autoresizingMaskForStyle:self.style];
     self.contentBackgroundView.backgroundColor = [UIColor whiteColor];
-    self.contentBackgroundView.alpha = 0.8f;
+    self.contentBackgroundView.alpha = self.contentBackgroundViewAlpha;
     [self.view addSubview:self.contentBackgroundView];
 }
 
@@ -148,8 +151,8 @@ static CGFloat TWGSideViewFadeViewTargetAlpha = 0.5f;
     
     if ([self shouldChangeAlphaBasedOnPercentagePanned:percentagePanned]) {
         percentagePanned = percentagePanned < 0 ? -percentagePanned : percentagePanned;
-        self.fadeView.alpha = MIN(TWGSideViewFadeViewTargetAlpha,
-                                  (1-percentagePanned) * TWGSideViewFadeViewTargetAlpha);
+        self.fadeView.alpha = MIN(self.sideViewTargetAlpha,
+                                  (1-percentagePanned) * self.sideViewTargetAlpha);
     }
 }
 
@@ -219,7 +222,7 @@ static CGFloat TWGSideViewFadeViewTargetAlpha = 0.5f;
 - (void)animateToFrame:(CGRect)targetFrame fadeOut:(BOOL)fadeOut duration:(CGFloat)duration
 {
     [UIView animateWithDuration:duration animations:^{
-        self.fadeView.alpha = fadeOut ? 0 : TWGSideViewFadeViewTargetAlpha;
+        self.fadeView.alpha = fadeOut ? 0 : self.sideViewTargetAlpha;
         self.contentBackgroundView.frame = targetFrame;
         self.viewController.view.frame = targetFrame;
     } completion:^(BOOL finished) {

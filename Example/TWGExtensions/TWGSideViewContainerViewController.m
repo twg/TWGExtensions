@@ -21,9 +21,7 @@
 
 - (CGFloat)targetDrawerWidthStyle:(TWGSideViewStyle)style
 {
-    /**
-     *  Size TWGSideViewController as you wish depending on TWGSideViewStyle
-     */
+
     switch (style) {
         case TWGSideViewStyleLeft:
             return 320.0f;

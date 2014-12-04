@@ -13,14 +13,21 @@ typedef NS_ENUM(NSInteger, TWGSideViewStyle) {
     TWGSideViewStyleRight
 };
 
-/**
- *  For an example of how implement TWGSideViewController, see TWGSideViewContainerViewController in the example
- */
 @interface TWGSideViewController : UIViewController
 
 @property (nonatomic, strong, readonly) UIViewController *viewController;
 @property (nonatomic, weak) id <TWGSideViewControllerDelegate> delegate;
+@property (nonatomic, assign) CGFloat sideViewTargetAlpha;
+@property (nonatomic, assign) CGFloat contentBackgroundViewAlpha;
 
+/**
+ *  Initialize the side view controller
+ *
+ *  @param viewController view controller to be displayed inside
+ *  @param style          direction side view controller comes from
+ *  @param openWidth      width of side view controller
+ *
+ */
 - (instancetype)initWithViewController:(UIViewController *)viewController
                                  style:(TWGSideViewStyle)style
                              openWidth:(CGFloat)openWidth;

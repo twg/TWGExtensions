@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "939D9FC3C9C29854FFEF63F2"
+               BlueprintIdentifier = "F3DC17660974493D1AC7AA27"
                BuildableName = "libPods-Tests-TWGExtensions.a"
                BlueprintName = "Pods-Tests-TWGExtensions"
                ReferencedContainer = "container:Pods.xcodeproj">

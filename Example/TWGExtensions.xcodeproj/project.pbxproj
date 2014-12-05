@@ -21,12 +21,12 @@
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
-		9E890D8F1A2F7E1C00C81C50 /* TWGGridViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E890D8E1A2F7E1C00C81C50 /* TWGGridViewControllerTests.m */; };
 		9E890D961A2F7E2A00C81C50 /* TWGBasicDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E890D911A2F7E2A00C81C50 /* TWGBasicDataSource.m */; };
 		9E890D971A2F7E2A00C81C50 /* TWGGridLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E890D931A2F7E2A00C81C50 /* TWGGridLayout.m */; };
 		9E890D981A2F7E2A00C81C50 /* TWGProductGridViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E890D951A2F7E2A00C81C50 /* TWGProductGridViewController.m */; };
 		9E890D9E1A2FAE0900C81C50 /* TWGNotificationObserverTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E890D9D1A2FAE0900C81C50 /* TWGNotificationObserverTests.m */; };
 		9E890D9A1A2FAB7600C81C50 /* TWGKeyboardObserverTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E890D991A2FAB7600C81C50 /* TWGKeyboardObserverTests.m */; };
+		9E890DA51A2FB9E700C81C50 /* TWGSideViewContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E890DA41A2FB9E700C81C50 /* TWGSideViewContainerViewController.m */; };
 		9E890DA01A2FB0B200C81C50 /* TWGKVOControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E890D9F1A2FB0B200C81C50 /* TWGKVOControllerTests.m */; };
 		AA26F3ACB7E34F1E8DF8F5F1 /* libPods-Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0905E45C67C047CCB65709CD /* libPods-Tests.a */; };
 		E606284968A849F19A4E7A0E /* libPods-TWGExtensions.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 326B5C2DFB2941B4866B8BA4 /* libPods-TWGExtensions.a */; };
@@ -69,7 +69,6 @@
 		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		9E890D8E1A2F7E1C00C81C50 /* TWGGridViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWGGridViewControllerTests.m; sourceTree = "<group>"; };
 		9E890D901A2F7E2A00C81C50 /* TWGBasicDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWGBasicDataSource.h; sourceTree = "<group>"; };
 		9E890D911A2F7E2A00C81C50 /* TWGBasicDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWGBasicDataSource.m; sourceTree = "<group>"; };
 		9E890D921A2F7E2A00C81C50 /* TWGGridLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWGGridLayout.h; sourceTree = "<group>"; };
@@ -77,6 +76,8 @@
 		9E890D941A2F7E2A00C81C50 /* TWGProductGridViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWGProductGridViewController.h; sourceTree = "<group>"; };
 		9E890D951A2F7E2A00C81C50 /* TWGProductGridViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWGProductGridViewController.m; sourceTree = "<group>"; };
 		9E890D9D1A2FAE0900C81C50 /* TWGNotificationObserverTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWGNotificationObserverTests.m; sourceTree = "<group>"; };
+		9E890DA31A2FB9E700C81C50 /* TWGSideViewContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWGSideViewContainerViewController.h; sourceTree = "<group>"; };
+		9E890DA41A2FB9E700C81C50 /* TWGSideViewContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWGSideViewContainerViewController.m; sourceTree = "<group>"; };
 		9E890D991A2FAB7600C81C50 /* TWGKeyboardObserverTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWGKeyboardObserverTests.m; sourceTree = "<group>"; };
 		9E890D9F1A2FB0B200C81C50 /* TWGKVOControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWGKVOControllerTests.m; sourceTree = "<group>"; };
 		B13633DAE7C94FAF8A18A0DB /* TWGExtensions.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TWGExtensions.podspec; path = ../TWGExtensions.podspec; sourceTree = "<group>"; };
@@ -172,6 +173,8 @@
 				9E890D951A2F7E2A00C81C50 /* TWGProductGridViewController.m */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
+				9E890DA31A2FB9E700C81C50 /* TWGSideViewContainerViewController.h */,
+				9E890DA41A2FB9E700C81C50 /* TWGSideViewContainerViewController.m */,
 			);
 			path = TWGExtensions;
 			sourceTree = "<group>";
@@ -385,6 +388,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E890DA51A2FB9E700C81C50 /* TWGSideViewContainerViewController.m in Sources */,
 				9E890D971A2F7E2A00C81C50 /* TWGGridLayout.m in Sources */,
 				6003F59E195388D20070C39A /* TWGAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* TWGViewController.m in Sources */,

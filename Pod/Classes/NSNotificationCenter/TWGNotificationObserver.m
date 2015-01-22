@@ -13,8 +13,18 @@
 - (instancetype)initWithNotificationName:(NSString *)notificationName
                                fireBlock:(void(^)(NSNotification *notification))fireBlock
 {
+    return [self initWithNotificationName:notificationName
+                                   object:nil
+                                fireBlock:fireBlock];
+}
+
+- (instancetype)initWithNotificationName:(NSString *)notificationName
+                                  object:(id)object
+                               fireBlock:(void(^)(NSNotification *notification))fireBlock
+{
     return [self initWithNotificationNames:@[notificationName]
                         notificationCenter:nil
+                                    object:object
                                  fireBlock:fireBlock];
 }
 
@@ -30,23 +40,35 @@
                        notificationCenter:(NSNotificationCenter *)notificationCenter
                                 fireBlock:(void(^)(NSNotification *notification))fireBlock
 {
+    
+    return [self initWithNotificationNames:notificationNames
+                        notificationCenter:notificationCenter
+                                    object:nil
+                                 fireBlock:fireBlock];
+}
+
+- (instancetype)initWithNotificationNames:(NSArray *)notificationNames
+                       notificationCenter:(NSNotificationCenter *)notificationCenter
+                                   object:(id)object
+                                fireBlock:(void(^)(NSNotification *notification))fireBlock
+{
     if (self = [super init]) {
         self.notificationCenter = notificationCenter ? notificationCenter : [NSNotificationCenter defaultCenter];
         self.notificationNames = notificationNames;
         self.fireBlock = fireBlock;
-        [self registerObservers];
+        [self registerObserversForObject:object];
     }
     
     return self;
 }
 
-- (void)registerObservers
+- (void)registerObserversForObject:(id)object
 {
     for (NSString *name in self.notificationNames) {
         [self.notificationCenter addObserver:self
                                     selector:@selector(triggerFireBlockWithNotification:)
                                         name:name
-                                      object:nil];
+                                      object:object];
     }
 }
 

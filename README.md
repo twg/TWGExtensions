@@ -1,8 +1,8 @@
 # TWGExtensions
-[![CI Status](http://img.shields.io/travis/John Grant/TWGExtensions.svg?style=flat)]
-[![Version](https://img.shields.io/cocoapods/v/TWGExtensions.svg?style=flat)]
-[![License](https://img.shields.io/cocoapods/l/TWGExtensions.svg?style=flat)]
-[![Platform](https://img.shields.io/cocoapods/p/TWGExtensions.svg?style=flat)]
+![CI Status](http://img.shields.io/travis/John Grant/TWGExtensions.svg?style=flat)
+![Version](https://img.shields.io/cocoapods/v/TWGExtensions.svg?style=flat)
+![License](https://img.shields.io/cocoapods/l/TWGExtensions.svg?style=flat)
+![Platform](https://img.shields.io/cocoapods/p/TWGExtensions.svg?style=flat)
 
 ## Usage
 To run the example project, clone the repo, and run `pod install` from the Example directory first.

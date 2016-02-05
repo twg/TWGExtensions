@@ -4,7 +4,10 @@
 ![License](https://img.shields.io/cocoapods/l/TWGExtensions.svg?style=flat)
 ![Platform](https://img.shields.io/cocoapods/p/TWGExtensions.svg?style=flat)
 
-## Usage
+## Documentation
+To learn more about the tools offered in TWGExtensions, head over to the [Wiki](https://github.com/twg/TWGExtensions/wiki).
+
+## Example
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Installation

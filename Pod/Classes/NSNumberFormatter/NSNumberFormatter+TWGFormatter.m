@@ -1,10 +1,3 @@
-//
-//  NSNumberFormatter+TWGFormatter.m
-//  The Working Group
-//
-//  Created by Brian Gilham on 2014-12-01.
-//  Copyright (c) 2014 The Working Group. All rights reserved.
-//
 
 #import "NSNumberFormatter+TWGFormatter.h"
 
@@ -22,4 +15,5 @@
 
     return currencyFormatter;
 }
+
 @end

@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
                        DESC
   s.homepage         = "https://github.com/twg"
   s.license          = 'MIT'
-  s.author           = { "John Grant" => "johnkgrant@gmail.com" }
+  s.author           = { "The Working Group" => "mobile@twg.ca" }
   s.source           = { :git => "https://github.com/twg/TWGExtensions.git", :tag => s.version.to_s }
   s.platform     = :ios, '7.0'
   s.requires_arc = true

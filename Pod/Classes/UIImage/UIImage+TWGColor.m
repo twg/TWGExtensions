@@ -10,10 +10,10 @@
     CGRect bounds = CGRectMake(0, 0, self.size.width, self.size.height);
     UIRectFill(bounds);
     [self drawInRect:bounds blendMode:kCGBlendModeDestinationIn alpha:1.0];
-    
+
     UIImage *tintedImage = UIGraphicsGetImageFromCurrentImageContext();
     UIGraphicsEndImageContext();
-    
+
     return tintedImage;
 }
 

@@ -1,6 +1,7 @@
+
 #import "TWGEmptyView.h"
 
-@interface TWGEmptyView()
+@interface TWGEmptyView ()
 
 @property (nonatomic, strong) UILabel *label;
 
@@ -51,6 +52,5 @@
     }
     return _label;
 }
-
 
 @end

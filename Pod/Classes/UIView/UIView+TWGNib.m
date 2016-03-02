@@ -10,12 +10,12 @@ const NSInteger TWGNibLoadingReferenceTag = 999;
     return [self twg_loadNibViewFromClass:[self class]];
 }
 
-+ (id)twg_loadNibViewFromClass:(Class)class
++ (id)twg_loadNibViewFromClass:(Class) class
 {
     return [self twg_loadNibViewWithName:NSStringFromClass(class)];
 }
 
-+ (id)twg_loadNibViewWithName:(NSString *)name
+    + (id)twg_loadNibViewWithName : (NSString *)name
 {
     return [[[NSBundle mainBundle] loadNibNamed:name owner:nil options:nil] firstObject];
 }
@@ -28,7 +28,7 @@ const NSInteger TWGNibLoadingReferenceTag = 999;
         realView.alpha = self.alpha;
         realView.autoresizingMask = self.autoresizingMask;
         realView.autoresizesSubviews = self.autoresizesSubviews;
-        
+
         if (autolayout) {
             realView.translatesAutoresizingMaskIntoConstraints = NO;
             [realView addConstraints:self.constraints];

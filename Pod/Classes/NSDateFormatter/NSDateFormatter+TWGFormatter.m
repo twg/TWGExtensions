@@ -1,10 +1,3 @@
-//
-//  NSDateFormatter+TWGFormatter.m
-//  The Working Group
-//
-//  Created by Brian Gilham on 2014-12-01.
-//  Copyright (c) 2014 The Working Group. All rights reserved.
-//
 
 #import "NSDateFormatter+TWGFormatter.h"
 
@@ -18,7 +11,7 @@
         sharedFormatter = [[NSDateFormatter alloc] init];
         [sharedFormatter setDateFormat:@"yyyy-MM-dd'T'HH:mm:ssZ"];
     });
-    
+
     return sharedFormatter;
 }
 
@@ -30,7 +23,7 @@
         sharedFormatter = [[NSDateFormatter alloc] init];
         [sharedFormatter setDateFormat:@"yyyy-MM-dd HH:mm:ss"];
     });
-    
+
     return sharedFormatter;
 }
 

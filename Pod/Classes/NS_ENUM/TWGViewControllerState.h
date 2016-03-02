@@ -1,4 +1,5 @@
-typedef NS_ENUM(NSUInteger, TWGViewControllerState){
+
+typedef NS_ENUM(NSUInteger, TWGViewControllerState) {
     TWGViewControllerStateLoading,
     TWGViewControllerStateEmpty,
     TWGViewControllerStateHasContent,

@@ -13,12 +13,11 @@ const unichar SINGLE_PRIME = 0x2032;
     if (!number) {
         return nil;
     }
-    
+
     NSInteger numberOfFeet = (NSInteger)[number integerValue] / NUMBER_OF_INCHES_IN_FEET;
     NSInteger numberOfInches = (NSInteger)[number integerValue] % NUMBER_OF_INCHES_IN_FEET;
-    return [NSString stringWithFormat:@"%ld%C%ldd%C",
-            (long)numberOfFeet, SINGLE_PRIME,
-            (long)numberOfInches, DOUBLE_PRIME];
+    return [NSString
+        stringWithFormat:@"%ld%C%ldd%C", (long)numberOfFeet, SINGLE_PRIME, (long)numberOfInches, DOUBLE_PRIME];
 }
 
 @end

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		13C479F94150F1B52F10973A /* Pods_TWGExtensions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D734341398A39B659B080964 /* Pods_TWGExtensions.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -21,15 +22,8 @@
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
+		7EE17F6A884EC8CF5562A6E7 /* Pods_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4664E4FAFEC9B3DA23487FED /* Pods_Tests.framework */; };
 		9E890D961A2F7E2A00C81C50 /* TWGBasicDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E890D911A2F7E2A00C81C50 /* TWGBasicDataSource.m */; };
-		9E890D971A2F7E2A00C81C50 /* TWGGridLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E890D931A2F7E2A00C81C50 /* TWGGridLayout.m */; };
-		9E890D981A2F7E2A00C81C50 /* TWGProductGridViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E890D951A2F7E2A00C81C50 /* TWGProductGridViewController.m */; };
-		9E890D9E1A2FAE0900C81C50 /* TWGNotificationObserverTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E890D9D1A2FAE0900C81C50 /* TWGNotificationObserverTests.m */; };
-		9E890D9A1A2FAB7600C81C50 /* TWGKeyboardObserverTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E890D991A2FAB7600C81C50 /* TWGKeyboardObserverTests.m */; };
-		9E890DA51A2FB9E700C81C50 /* TWGSideViewContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E890DA41A2FB9E700C81C50 /* TWGSideViewContainerViewController.m */; };
-		9E890DA01A2FB0B200C81C50 /* TWGKVOControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E890D9F1A2FB0B200C81C50 /* TWGKVOControllerTests.m */; };
-		AA26F3ACB7E34F1E8DF8F5F1 /* libPods-Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0905E45C67C047CCB65709CD /* libPods-Tests.a */; };
-		E606284968A849F19A4E7A0E /* libPods-TWGExtensions.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 326B5C2DFB2941B4866B8BA4 /* libPods-TWGExtensions.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,10 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0905E45C67C047CCB65709CD /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1570E0DAF06E4E06825EE002 /* Pods-TWGExtensions.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TWGExtensions.release.xcconfig"; path = "Pods/Target Support Files/Pods-TWGExtensions/Pods-TWGExtensions.release.xcconfig"; sourceTree = "<group>"; };
-		326B5C2DFB2941B4866B8BA4 /* libPods-TWGExtensions.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TWGExtensions.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		44E8BBFB2787983E45E99A56 /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		4664E4FAFEC9B3DA23487FED /* Pods_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		492463CDB13647BCAAD04CCC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		4F5B1F5A8060F067C72B2B83 /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* TWGExtensions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TWGExtensions.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -71,17 +64,9 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		9E890D901A2F7E2A00C81C50 /* TWGBasicDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWGBasicDataSource.h; sourceTree = "<group>"; };
 		9E890D911A2F7E2A00C81C50 /* TWGBasicDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWGBasicDataSource.m; sourceTree = "<group>"; };
-		9E890D921A2F7E2A00C81C50 /* TWGGridLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWGGridLayout.h; sourceTree = "<group>"; };
-		9E890D931A2F7E2A00C81C50 /* TWGGridLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWGGridLayout.m; sourceTree = "<group>"; };
-		9E890D941A2F7E2A00C81C50 /* TWGProductGridViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWGProductGridViewController.h; sourceTree = "<group>"; };
-		9E890D951A2F7E2A00C81C50 /* TWGProductGridViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWGProductGridViewController.m; sourceTree = "<group>"; };
-		9E890D9D1A2FAE0900C81C50 /* TWGNotificationObserverTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWGNotificationObserverTests.m; sourceTree = "<group>"; };
-		9E890DA31A2FB9E700C81C50 /* TWGSideViewContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWGSideViewContainerViewController.h; sourceTree = "<group>"; };
-		9E890DA41A2FB9E700C81C50 /* TWGSideViewContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWGSideViewContainerViewController.m; sourceTree = "<group>"; };
-		9E890D991A2FAB7600C81C50 /* TWGKeyboardObserverTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWGKeyboardObserverTests.m; sourceTree = "<group>"; };
-		9E890D9F1A2FB0B200C81C50 /* TWGKVOControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWGKVOControllerTests.m; sourceTree = "<group>"; };
 		B13633DAE7C94FAF8A18A0DB /* TWGExtensions.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TWGExtensions.podspec; path = ../TWGExtensions.podspec; sourceTree = "<group>"; };
 		C7B1C2C9CE5523CD6193EF56 /* Pods-TWGExtensions.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TWGExtensions.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TWGExtensions/Pods-TWGExtensions.debug.xcconfig"; sourceTree = "<group>"; };
+		D734341398A39B659B080964 /* Pods_TWGExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TWGExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F323BAE25C284DB9A3267FF5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -93,7 +78,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				E606284968A849F19A4E7A0E /* libPods-TWGExtensions.a in Frameworks */,
+				13C479F94150F1B52F10973A /* Pods_TWGExtensions.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,7 +89,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				AA26F3ACB7E34F1E8DF8F5F1 /* libPods-Tests.a in Frameworks */,
+				7EE17F6A884EC8CF5562A6E7 /* Pods_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,8 +135,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				326B5C2DFB2941B4866B8BA4 /* libPods-TWGExtensions.a */,
-				0905E45C67C047CCB65709CD /* libPods-Tests.a */,
+				D734341398A39B659B080964 /* Pods_TWGExtensions.framework */,
+				4664E4FAFEC9B3DA23487FED /* Pods_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -167,14 +152,8 @@
 				6003F5A6195388D20070C39A /* TWGViewController.m */,
 				9E890D901A2F7E2A00C81C50 /* TWGBasicDataSource.h */,
 				9E890D911A2F7E2A00C81C50 /* TWGBasicDataSource.m */,
-				9E890D921A2F7E2A00C81C50 /* TWGGridLayout.h */,
-				9E890D931A2F7E2A00C81C50 /* TWGGridLayout.m */,
-				9E890D941A2F7E2A00C81C50 /* TWGProductGridViewController.h */,
-				9E890D951A2F7E2A00C81C50 /* TWGProductGridViewController.m */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
-				9E890DA31A2FB9E700C81C50 /* TWGSideViewContainerViewController.h */,
-				9E890DA41A2FB9E700C81C50 /* TWGSideViewContainerViewController.m */,
 			);
 			path = TWGExtensions;
 			sourceTree = "<group>";
@@ -193,10 +172,7 @@
 		6003F5B5195388D20070C39A /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				9E890D8E1A2F7E1C00C81C50 /* TWGGridViewControllerTests.m */,
-				9E890D9D1A2FAE0900C81C50 /* TWGNotificationObserverTests.m */,
 				6003F5B6195388D20070C39A /* Supporting Files */,
-				9E890D9F1A2FB0B200C81C50 /* TWGKVOControllerTests.m */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -204,7 +180,6 @@
 		6003F5B6195388D20070C39A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				9E890D991A2FAB7600C81C50 /* TWGKeyboardObserverTests.m */,
 				6003F5B7195388D20070C39A /* Tests-Info.plist */,
 				6003F5B8195388D20070C39A /* InfoPlist.strings */,
 				606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */,
@@ -234,6 +209,7 @@
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
 				44AA257A39CF4FAC8FED84A9 /* Copy Pods Resources */,
+				12333450C225EECEEDDFF436 /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,6 +229,7 @@
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
 				608CDFD84A6349B5AB3D1006 /* Copy Pods Resources */,
+				D5D1DE7C65D2169233CFD1E4 /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -271,7 +248,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = TWG;
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "John Grant";
 				TargetAttributes = {
 					6003F5AD195388D20070C39A = {
@@ -321,6 +298,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		12333450C225EECEEDDFF436 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TWGExtensions/Pods-TWGExtensions-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		3A08E8AA9F9248E69F7E054E /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -381,6 +373,21 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
+		D5D1DE7C65D2169233CFD1E4 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tests/Pods-Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -388,13 +395,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E890DA51A2FB9E700C81C50 /* TWGSideViewContainerViewController.m in Sources */,
-				9E890D971A2F7E2A00C81C50 /* TWGGridLayout.m in Sources */,
 				6003F59E195388D20070C39A /* TWGAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* TWGViewController.m in Sources */,
 				9E890D961A2F7E2A00C81C50 /* TWGBasicDataSource.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
-				9E890D981A2F7E2A00C81C50 /* TWGProductGridViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,10 +406,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E890D8F1A2F7E1C00C81C50 /* TWGGridViewControllerTests.m in Sources */,
-				9E890D9E1A2FAE0900C81C50 /* TWGNotificationObserverTests.m in Sources */,
-				9E890D9A1A2FAB7600C81C50 /* TWGKeyboardObserverTests.m in Sources */,
-				9E890DA01A2FB0B200C81C50 /* TWGKVOControllerTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -473,6 +473,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -487,7 +488,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -520,7 +521,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -536,6 +537,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TWGExtensions/TWGExtensions-Prefix.pch";
 				INFOPLIST_FILE = "TWGExtensions/TWGExtensions-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -550,6 +552,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TWGExtensions/TWGExtensions-Prefix.pch";
 				INFOPLIST_FILE = "TWGExtensions/TWGExtensions-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -572,6 +575,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -591,6 +595,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;

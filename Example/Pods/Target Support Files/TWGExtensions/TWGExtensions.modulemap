@@ -1,0 +1,6 @@
+framework module TWGExtensions {
+  umbrella header "TWGExtensions-umbrella.h"
+
+  export *
+  module * { export * }
+}

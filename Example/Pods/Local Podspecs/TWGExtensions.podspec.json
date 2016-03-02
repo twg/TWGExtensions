@@ -1,0 +1,20 @@
+{
+  "name": "TWGExtensions",
+  "version": "0.2.1",
+  "summary": "A collection of useful categories.",
+  "description": "TWG developed categories and extensions on foundation. Useful for resulable code",
+  "homepage": "https://github.com/twg",
+  "license": "MIT",
+  "authors": {
+    "The Working Group": "mobile@twg.ca"
+  },
+  "source": {
+    "git": "https://github.com/twg/TWGExtensions.git",
+    "tag": "0.2.1"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*"
+}

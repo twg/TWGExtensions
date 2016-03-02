@@ -9,6 +9,6 @@
   #define EXP_SHORTHAND
   #import <Expecta/Expecta.h>
   #import <FBSnapshotTestCase/FBSnapshotTestCase.h>
-  #import <OCMock.h>
+  #import "OCMock.h"
 
 #endif

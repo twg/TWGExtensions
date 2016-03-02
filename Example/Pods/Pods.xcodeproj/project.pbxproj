@@ -201,7 +201,7 @@
 		EDDC62E8F9FA831B43B996D9A588A9EF /* UILabel+TWGHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = E0CE2DC451B8F4E645DD3D1C35E8935B /* UILabel+TWGHeight.m */; };
 		EE3A1AB56696F922B05D7E5233213C60 /* EXPMatchers+notify.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BB1BB84DF60E20B1E39A472941E647 /* EXPMatchers+notify.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		F072901E9E05C36A9D3FDEC1C3A196B8 /* NSString+TWGRandom.m in Sources */ = {isa = PBXBuildFile; fileRef = 46F9054C098815383CB54B342E24FA4E /* NSString+TWGRandom.m */; };
-		F3F743EDE0F66C9245CB19ADC9FBC375 /* UILabel+SubstringStyler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A6A23881236F804DB9C3D269FFC4A2 /* UILabel+SubstringStyler.swift */; };
+		F3F743EDE0F66C9245CB19ADC9FBC375 /* UILabel+TWGSubstringStyler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A6A23881236F804DB9C3D269FFC4A2 /* UILabel+TWGSubstringStyler.swift */; };
 		F4C6E14E06ADDB10C490367105220F19 /* OCMInvocationStub.h in Headers */ = {isa = PBXBuildFile; fileRef = 84650581414B54A4CA523433586C805B /* OCMInvocationStub.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		F812C7F04BEBF56B35F8F29CC3D5B69B /* EXPMatchers+equal.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EBE9AF838F9760E71FBB580F29CCF1E /* EXPMatchers+equal.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		FA80A6F17449DC231366344460F04C14 /* EXPMatchers+beInstanceOf.h in Headers */ = {isa = PBXBuildFile; fileRef = 01BF55FE22F75DDD709606CD96F17B90 /* EXPMatchers+beInstanceOf.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -312,7 +312,7 @@
 		427895A65C826F65EF5C19B68440979D /* OCMArg.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCMArg.m; path = Source/OCMock/OCMArg.m; sourceTree = "<group>"; };
 		4363A1F35F58B053A6F0CD93D2249FF1 /* Pods-TWGExtensions.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TWGExtensions.release.xcconfig"; sourceTree = "<group>"; };
 		44B5262507E46F5EC81B202B83654D86 /* NSArray+TWGGroup.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSArray+TWGGroup.m"; sourceTree = "<group>"; };
-		46A6A23881236F804DB9C3D269FFC4A2 /* UILabel+SubstringStyler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UILabel+SubstringStyler.swift"; sourceTree = "<group>"; };
+		46A6A23881236F804DB9C3D269FFC4A2 /* UILabel+TWGSubstringStyler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UILabel+TWGSubstringStyler.swift"; sourceTree = "<group>"; };
 		46F9054C098815383CB54B342E24FA4E /* NSString+TWGRandom.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+TWGRandom.m"; sourceTree = "<group>"; };
 		485E9DD4E54E1E2B04F608A327B145A9 /* TWGHeightFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TWGHeightFormatter.h; sourceTree = "<group>"; };
 		49117200326DD0181B0B2943187BA685 /* OCMock.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OCMock.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1027,7 +1027,7 @@
 		FBD76F0EBB430D0CE3BBDD9B25AAB47A /* UILabel */ = {
 			isa = PBXGroup;
 			children = (
-				46A6A23881236F804DB9C3D269FFC4A2 /* UILabel+SubstringStyler.swift */,
+				46A6A23881236F804DB9C3D269FFC4A2 /* UILabel+TWGSubstringStyler.swift */,
 				E3A511B66E8D5BD3A0DBDCCEF508A248 /* UILabel+TWGHeight.h */,
 				E0CE2DC451B8F4E645DD3D1C35E8935B /* UILabel+TWGHeight.m */,
 			);
@@ -1448,7 +1448,7 @@
 				EB0F1D76C90E74F8B767073C085E9103 /* UIImage+TWGColor.m in Sources */,
 				36778CEAD565628AFD5F0A46EA7E7502 /* UIImage+TWGImage.m in Sources */,
 				5E61B694906D70259A26DAF3897C2B93 /* UIImage+TWGSizing.m in Sources */,
-				F3F743EDE0F66C9245CB19ADC9FBC375 /* UILabel+SubstringStyler.swift in Sources */,
+				F3F743EDE0F66C9245CB19ADC9FBC375 /* UILabel+TWGSubstringStyler.swift in Sources */,
 				EDDC62E8F9FA831B43B996D9A588A9EF /* UILabel+TWGHeight.m in Sources */,
 				BC59CBE0822E7AEEF94A8BA650F730EC /* UITableViewCell+TWGHeight.m in Sources */,
 				494F9C4A8635726B36DAF5DB786A606E /* UIView+TWGHeight.m in Sources */,

@@ -155,6 +155,8 @@
 		B5ED0A3A22662FC5D41EB8B4D5F9BFF0 /* OCMock.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F9CDBCB474DC2487196DDE8BB50CE4E /* OCMock.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B60CD5BD27E15F32907A08E33D3AAA8A /* EXPMatchers+beSupersetOf.h in Headers */ = {isa = PBXBuildFile; fileRef = D970CDF492155EEC57A8206ABCC48CB2 /* EXPMatchers+beSupersetOf.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B69B2E43A54A80A651CA807FF083A1C8 /* Expecta-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E8DB3C919DC537FE689E3AED33EBA40E /* Expecta-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B71E302E1C88C2FA00BFDBCE /* UIView+TWGDropShadow.h in Headers */ = {isa = PBXBuildFile; fileRef = B71E302C1C88C2FA00BFDBCE /* UIView+TWGDropShadow.h */; };
+		B71E30301C88C2FE00BFDBCE /* UIView+TWGDropShadow.m in Sources */ = {isa = PBXBuildFile; fileRef = B71E302D1C88C2FA00BFDBCE /* UIView+TWGDropShadow.m */; };
 		B743B2C81C879844004A2517 /* NSString+TWGEmailValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B743B2C71C879844004A2517 /* NSString+TWGEmailValidator.swift */; };
 		B882D54B2BD7136804E7CD400CF8C96B /* EXPMatchers+beCloseTo.h in Headers */ = {isa = PBXBuildFile; fileRef = B2FE17F692FCCE41873C630A8D9BC49D /* EXPMatchers+beCloseTo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B95D0278A0C48F7D8671A4BFD5C6A99E /* TWGViewControllerState.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BDABFFE7A9FFCB64C6742A8F5A86A17 /* TWGViewControllerState.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -416,6 +418,8 @@
 		B2FE17F692FCCE41873C630A8D9BC49D /* EXPMatchers+beCloseTo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beCloseTo.h"; path = "src/matchers/EXPMatchers+beCloseTo.h"; sourceTree = "<group>"; };
 		B46939732BF0ADDB12992B05172F9619 /* EXPMatchers+beSubclassOf.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beSubclassOf.m"; path = "src/matchers/EXPMatchers+beSubclassOf.m"; sourceTree = "<group>"; };
 		B6B9380C46B60B77E480C1D76DCC562D /* OCMObserverRecorder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCMObserverRecorder.m; path = Source/OCMock/OCMObserverRecorder.m; sourceTree = "<group>"; };
+		B71E302C1C88C2FA00BFDBCE /* UIView+TWGDropShadow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TWGDropShadow.h"; sourceTree = "<group>"; };
+		B71E302D1C88C2FA00BFDBCE /* UIView+TWGDropShadow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TWGDropShadow.m"; sourceTree = "<group>"; };
 		B743B2C71C879844004A2517 /* NSString+TWGEmailValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSString+TWGEmailValidator.swift"; sourceTree = "<group>"; };
 		B944F3829C0D4B53A3CF578BC19C5039 /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+Compare.h"; sourceTree = "<group>"; };
 		BA015F654306EC07774416B566904368 /* OCMNotificationPoster.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCMNotificationPoster.h; path = Source/OCMock/OCMNotificationPoster.h; sourceTree = "<group>"; };
@@ -654,6 +658,8 @@
 				1ECEBC63C963318D2239AEDD38D2B2B7 /* UIView+TWGHeight.m */,
 				FC07E923D59BF0357A13999405461D9E /* UIView+TWGNib.h */,
 				7698281B98125FC1F90143F5B0B14010 /* UIView+TWGNib.m */,
+				B71E302C1C88C2FA00BFDBCE /* UIView+TWGDropShadow.h */,
+				B71E302D1C88C2FA00BFDBCE /* UIView+TWGDropShadow.m */,
 			);
 			path = UIView;
 			sourceTree = "<group>";
@@ -1121,6 +1127,7 @@
 				8D3A729B2425BEB7572772ECF9AEABA9 /* EXPMatchers+conformTo.h in Headers */,
 				EC4996348FA0858EDB366F0B86A2A3B0 /* EXPMatchers+contain.h in Headers */,
 				387E7869B7CBA22D0300234F7DFFE1EE /* EXPMatchers+endWith.h in Headers */,
+				B71E302E1C88C2FA00BFDBCE /* UIView+TWGDropShadow.h in Headers */,
 				54488C3D3E95D28C8449FC454A01EEF8 /* EXPMatchers+equal.h in Headers */,
 				786E492A591D00C1383AFE7EC730D3B1 /* EXPMatchers+haveCountOf.h in Headers */,
 				CDD3006BA50789512F27A722A4732A47 /* EXPMatchers+notify.h in Headers */,
@@ -1456,6 +1463,7 @@
 				EDDC62E8F9FA831B43B996D9A588A9EF /* UILabel+TWGHeight.m in Sources */,
 				BC59CBE0822E7AEEF94A8BA650F730EC /* UITableViewCell+TWGHeight.m in Sources */,
 				494F9C4A8635726B36DAF5DB786A606E /* UIView+TWGHeight.m in Sources */,
+				B71E30301C88C2FE00BFDBCE /* UIView+TWGDropShadow.m in Sources */,
 				6F445F032532A305ADC42757154C8A6D /* UIView+TWGNib.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

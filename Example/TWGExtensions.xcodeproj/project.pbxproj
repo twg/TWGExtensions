@@ -24,6 +24,7 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		7EE17F6A884EC8CF5562A6E7 /* Pods_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4664E4FAFEC9B3DA23487FED /* Pods_Tests.framework */; };
 		9E890D961A2F7E2A00C81C50 /* TWGBasicDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E890D911A2F7E2A00C81C50 /* TWGBasicDataSource.m */; };
+		B71E2FF41C888CC600BFDBCE /* NSString+TWGEmailValidatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71E2FF31C888CC600BFDBCE /* NSString+TWGEmailValidatorTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,7 @@
 		9E890D901A2F7E2A00C81C50 /* TWGBasicDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWGBasicDataSource.h; sourceTree = "<group>"; };
 		9E890D911A2F7E2A00C81C50 /* TWGBasicDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWGBasicDataSource.m; sourceTree = "<group>"; };
 		B13633DAE7C94FAF8A18A0DB /* TWGExtensions.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TWGExtensions.podspec; path = ../TWGExtensions.podspec; sourceTree = "<group>"; };
+		B71E2FF31C888CC600BFDBCE /* NSString+TWGEmailValidatorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSString+TWGEmailValidatorTests.swift"; sourceTree = "<group>"; };
 		C7B1C2C9CE5523CD6193EF56 /* Pods-TWGExtensions.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TWGExtensions.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TWGExtensions/Pods-TWGExtensions.debug.xcconfig"; sourceTree = "<group>"; };
 		D734341398A39B659B080964 /* Pods_TWGExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TWGExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F323BAE25C284DB9A3267FF5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
@@ -173,6 +175,7 @@
 			isa = PBXGroup;
 			children = (
 				6003F5B6195388D20070C39A /* Supporting Files */,
+				B71E2FF31C888CC600BFDBCE /* NSString+TWGEmailValidatorTests.swift */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -406,6 +409,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B71E2FF41C888CC600BFDBCE /* NSString+TWGEmailValidatorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -563,6 +567,7 @@
 			baseConfigurationReference = 44E8BBFB2787983E45E99A56 /* Pods-Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TWGExtensions.app/TWGExtensions";
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -575,8 +580,10 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -587,6 +594,7 @@
 			baseConfigurationReference = 4F5B1F5A8060F067C72B2B83 /* Pods-Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TWGExtensions.app/TWGExtensions";
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -595,6 +603,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";

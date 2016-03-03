@@ -130,6 +130,7 @@
 		9CCCAF5CC4F0043881A76B3DEEF08EB8 /* OCMRealObjectForwarder.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DFB955FE2524D4CE4E675C39E1475D5 /* OCMRealObjectForwarder.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		9DE08EC339431824A8F8F7E85C4506E3 /* TWGLoadingIndicator.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D1842066018C523703F948BECB3AFEF /* TWGLoadingIndicator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9E9A2C59151B831F7B7B8E7444311918 /* NSObject+OCMAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 75464F826DD40D6D1A47140D2970AE9F /* NSObject+OCMAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9ECC4FFB1C887F5800B15E48 /* UIView+TWGAutoLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ECC4FFA1C887F5800B15E48 /* UIView+TWGAutoLayout.swift */; };
 		A113734ECE26B0EF804B78409DC62224 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 279AA6492631DEFA8C439A9C088EEB8A /* XCTest.framework */; };
 		A15C1C8A29504C5D29274F23ED779412 /* EXPMatchers+beLessThanOrEqualTo.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D27E29E6A8B162D37EE875824DA4CBC /* EXPMatchers+beLessThanOrEqualTo.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		A27CD052A6596A531A452F9D6150D5BE /* OCMock-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 504AADDE2040CDF40C7B70CD669FD724 /* OCMock-dummy.m */; };
@@ -396,6 +397,7 @@
 		9C0F101B4A8892A84CE3E1923C330FC4 /* EXPMatchers+beInTheRangeOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beInTheRangeOf.h"; path = "src/matchers/EXPMatchers+beInTheRangeOf.h"; sourceTree = "<group>"; };
 		9D1842066018C523703F948BECB3AFEF /* TWGLoadingIndicator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TWGLoadingIndicator.h; sourceTree = "<group>"; };
 		9DFB955FE2524D4CE4E675C39E1475D5 /* OCMRealObjectForwarder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCMRealObjectForwarder.m; path = Source/OCMock/OCMRealObjectForwarder.m; sourceTree = "<group>"; };
+		9ECC4FFA1C887F5800B15E48 /* UIView+TWGAutoLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+TWGAutoLayout.swift"; sourceTree = "<group>"; };
 		9F10FC9B91D953E75E74E7E5CD5362A0 /* EXPMatcherHelpers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPMatcherHelpers.h; path = src/matchers/EXPMatcherHelpers.h; sourceTree = "<group>"; };
 		A1B2C288669C3B31FF14960E038CC3BB /* OCMock-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OCMock-prefix.pch"; sourceTree = "<group>"; };
 		A233AD17AB7D311E2058144BC5D27F4D /* UIImage+TWGImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+TWGImage.m"; sourceTree = "<group>"; };
@@ -654,6 +656,7 @@
 				1ECEBC63C963318D2239AEDD38D2B2B7 /* UIView+TWGHeight.m */,
 				FC07E923D59BF0357A13999405461D9E /* UIView+TWGNib.h */,
 				7698281B98125FC1F90143F5B0B14010 /* UIView+TWGNib.m */,
+				9ECC4FFA1C887F5800B15E48 /* UIView+TWGAutoLayout.swift */,
 			);
 			path = UIView;
 			sourceTree = "<group>";
@@ -1454,6 +1457,7 @@
 				F3F743EDE0F66C9245CB19ADC9FBC375 /* UILabel+TWGSubstringStyler.swift in Sources */,
 				B743B2C81C879844004A2517 /* NSString+TWGEmailValidator.swift in Sources */,
 				EDDC62E8F9FA831B43B996D9A588A9EF /* UILabel+TWGHeight.m in Sources */,
+				9ECC4FFB1C887F5800B15E48 /* UIView+TWGAutoLayout.swift in Sources */,
 				BC59CBE0822E7AEEF94A8BA650F730EC /* UITableViewCell+TWGHeight.m in Sources */,
 				494F9C4A8635726B36DAF5DB786A606E /* UIView+TWGHeight.m in Sources */,
 				6F445F032532A305ADC42757154C8A6D /* UIView+TWGNib.m in Sources */,

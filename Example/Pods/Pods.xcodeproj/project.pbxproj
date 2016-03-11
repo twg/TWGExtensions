@@ -173,6 +173,8 @@
 		C389FFA87F93E31092521DC1BED68D66 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 200FC71C844FC2E5B2DF585549F7C0FA /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C3930D77FD11A68A489B530BDC081021 /* OCMPassByRefSetter.m in Sources */ = {isa = PBXBuildFile; fileRef = AD3CE1E2BCCCA8B1923CF1BB29F5BC6F /* OCMPassByRefSetter.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		C39EE65BE48CF5792FD24C05E8A8438B /* ExpectaSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E5641929A962934E3F8C500992F2CC1 /* ExpectaSupport.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C5E7FA6D1C931B0900B0474F /* NSObject+TWGProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = C5E7FA681C931AA400B0474F /* NSObject+TWGProperty.h */; };
+		C5E7FA6E1C931B0C00B0474F /* NSObject+TWGProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E7FA691C931AA400B0474F /* NSObject+TWGProperty.m */; };
 		C6E0A19934347F98E551BF736435EACF /* EXPMatchers+beginWith.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DF6CEBEFDA42D53D35DF6F0CBE1A2E4 /* EXPMatchers+beginWith.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C79DCB3AB7FFF053B1F9A13895096DCC /* EXPMatchers+beSupersetOf.m in Sources */ = {isa = PBXBuildFile; fileRef = 98AF623B5FD686A59562365D477931BB /* EXPMatchers+beSupersetOf.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		C863DF446CB76559F16FF6645970884D /* EXPMatcherHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F10FC9B91D953E75E74E7E5CD5362A0 /* EXPMatcherHelpers.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -448,6 +450,8 @@
 		C39842E64B2CA5FF6187A3194970F898 /* EXPBlockDefinedMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPBlockDefinedMatcher.h; path = src/EXPBlockDefinedMatcher.h; sourceTree = "<group>"; };
 		C4074B003EEFEEF2708CCDDCDC314F68 /* EXPMatchers+beGreaterThanOrEqualTo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beGreaterThanOrEqualTo.h"; path = "src/matchers/EXPMatchers+beGreaterThanOrEqualTo.h"; sourceTree = "<group>"; };
 		C43D27B1516FB3C62C4DECA004963275 /* OCClassMockObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCClassMockObject.h; path = Source/OCMock/OCClassMockObject.h; sourceTree = "<group>"; };
+		C5E7FA681C931AA400B0474F /* NSObject+TWGProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSObject+TWGProperty.h"; path = "NSObject/NSObject+TWGProperty.h"; sourceTree = "<group>"; };
+		C5E7FA691C931AA400B0474F /* NSObject+TWGProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSObject+TWGProperty.m"; path = "NSObject/NSObject+TWGProperty.m"; sourceTree = "<group>"; };
 		C96B33F8D3D33F0961E5E4A8BF2334A8 /* OCObserverMockObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCObserverMockObject.m; path = Source/OCMock/OCObserverMockObject.m; sourceTree = "<group>"; };
 		C9E29AC43B6778ACEC4187E0191DB348 /* OCMInvocationStub.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCMInvocationStub.m; path = Source/OCMock/OCMInvocationStub.m; sourceTree = "<group>"; };
 		CA29B0FED9455373DB0E0E961D0B45EF /* Expecta.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Expecta.xcconfig; sourceTree = "<group>"; };
@@ -925,6 +929,7 @@
 				09423A88F4C78607045E300876BCAC54 /* UILabel */,
 				8B7405C29F8238EE6495070F3315AF82 /* UITableViewCell */,
 				6786C464C7457AE635B041500665355C /* UIView */,
+				C5E7FA671C931A5F00B0474F /* NSObject */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -993,6 +998,15 @@
 				E5D21A46D626105142EF15DFCA4DA64A /* Pods-TWGExtensions */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C5E7FA671C931A5F00B0474F /* NSObject */ = {
+			isa = PBXGroup;
+			children = (
+				C5E7FA681C931AA400B0474F /* NSObject+TWGProperty.h */,
+				C5E7FA691C931AA400B0474F /* NSObject+TWGProperty.m */,
+			);
+			name = NSObject;
 			sourceTree = "<group>";
 		};
 		D840084BDE2E49140CE01D075D769085 /* Pods */ = {
@@ -1132,6 +1146,7 @@
 				0CD64ABC96F7CBC0AADDEE9CD945C9E7 /* UIImage+TWGColor.h in Headers */,
 				E6D56A0983F6422465D8EBB35E2B1443 /* UIImage+TWGImage.h in Headers */,
 				D9484A0BA578637894E6968D972150FE /* UIImage+TWGSizing.h in Headers */,
+				C5E7FA6D1C931B0900B0474F /* NSObject+TWGProperty.h in Headers */,
 				5436AC69F4FA3823C72BEA972A3E2FD1 /* UILabel+TWGHeight.h in Headers */,
 				BA813BFA25957A5A5991161F097133A0 /* UITableViewCell+TWGHeight.h in Headers */,
 				CA159C77ADE0E6A55D4DFD751EF7F7CB /* UIView+TWGDropShadow.h in Headers */,
@@ -1354,6 +1369,7 @@
 			files = (
 				32ED63021815D35D576A30F1B4E5182F /* NSArray+TWGExtensions.m in Sources */,
 				49285719944850C45D019FE5946D6C2E /* NSArray+TWGGroup.m in Sources */,
+				C5E7FA6E1C931B0C00B0474F /* NSObject+TWGProperty.m in Sources */,
 				8A492DCA695CEAB95E1C9AAB8E42A3EC /* NSDateFormatter+TWGFormatter.m in Sources */,
 				968F78C20DD8EADAAAA2EA5E2404A4FB /* NSLayoutConstraint+TWGConstraints.m in Sources */,
 				732C73617D9846B20DA37EA06600E195 /* NSNumberFormatter+TWGFormatter.m in Sources */,

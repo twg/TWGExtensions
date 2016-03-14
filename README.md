@@ -1,9 +1,17 @@
 #TWGExtensions
 
 ## Installation
+
 TWGExtensions is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+it, ensure your Podfile sources the TWG specs repo:
+
+```ruby
+source "https://github.com/twg/cocoapod-specs.git"
 ```
+
+Then, simply add the following line to your Podfile:
+
+```ruby
 pod "TWGExtensions"
 ```
 

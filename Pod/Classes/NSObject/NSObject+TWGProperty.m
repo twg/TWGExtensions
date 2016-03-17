@@ -43,7 +43,7 @@
     NSMutableSet *intersectingKeys = [NSMutableSet setWithSet:properties];
     [intersectingKeys intersectSet:otherProperties];
 
-    for (id property in intersectingKeys) {
+    for (NSString *property in intersectingKeys) {
         id otherProperty = [otherObject valueForKey:property];
         if (property) {
             [self setValue:otherProperty forKey:property];

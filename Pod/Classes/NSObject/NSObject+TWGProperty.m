@@ -34,4 +34,21 @@
     return [NSSet setWithSet:propertyNames];
 }
 
+- (void)mergeWithObject:(NSObject *)otherObject
+{
+    NSSet *properties = [[self class] determineCompileTimePropertyNames];
+    NSSet *otherProperties = [[otherObject class] determineCompileTimePropertyNames];
+
+    // Only collect keys which are common to both classes
+    NSMutableSet *intersectingKeys = [NSMutableSet setWithSet:properties];
+    [intersectingKeys intersectSet:otherProperties];
+
+    for (id property in intersectingKeys) {
+        id otherProperty = [otherObject valueForKey:property];
+        if (property) {
+            [self setValue:otherProperty forKey:property];
+        }
+    }
+}
+
 @end

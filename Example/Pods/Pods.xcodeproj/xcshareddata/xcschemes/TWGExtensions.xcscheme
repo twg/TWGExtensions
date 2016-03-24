@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '4CD6E37D4F4FCE32D582DC85'
+               BlueprintIdentifier = '62841FEF0E0DB7CDCA9DEAF0'
                BlueprintName = 'TWGExtensions'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'TWGExtensions.framework'>

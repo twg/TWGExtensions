@@ -1,6 +1,6 @@
 {
   "name": "TWGExtensions",
-  "version": "0.2.1",
+  "version": "0.2.6",
   "summary": "A collection of useful categories.",
   "description": "TWG developed categories and extensions on foundation. Useful for resulable code",
   "homepage": "https://github.com/twg",
@@ -10,7 +10,7 @@
   },
   "source": {
     "git": "https://github.com/twg/TWGExtensions.git",
-    "tag": "0.2.1"
+    "tag": "0.2.6"
   },
   "platforms": {
     "ios": "8.0"

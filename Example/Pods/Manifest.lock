@@ -2,7 +2,7 @@ PODS:
   - Expecta (0.3.1)
   - FBSnapshotTestCase (1.4)
   - OCMock (3.1.1)
-  - TWGExtensions (0.2.1)
+  - TWGExtensions (0.2.6)
 
 DEPENDENCIES:
   - Expecta
@@ -18,6 +18,6 @@ SPEC CHECKSUMS:
   Expecta: a354d4633409dd9fe8c4f5ff5130426adbe31628
   FBSnapshotTestCase: 892508495a69e8703bab36c9da7674ff740d41db
   OCMock: a73f69963a8a542b0b343e2617650e4dca0cbbc2
-  TWGExtensions: 2d139a4fce8c47abba3d259d7ba9e8dd79c0f681
+  TWGExtensions: e9fb063876f52844cd356c32617ca65093cd121e
 
 COCOAPODS: 0.39.0

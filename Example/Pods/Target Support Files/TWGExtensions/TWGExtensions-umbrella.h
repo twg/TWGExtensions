@@ -21,6 +21,7 @@
 #import "UIView+TWGDropShadow.h"
 #import "UIView+TWGHeight.h"
 #import "UIView+TWGNib.h"
+#import "NSMutableDictionary+TWGMutableDictionary.h"
 
 FOUNDATION_EXPORT double TWGExtensionsVersionNumber;
 FOUNDATION_EXPORT const unsigned char TWGExtensionsVersionString[];

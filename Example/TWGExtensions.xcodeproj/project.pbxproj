@@ -23,6 +23,7 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		7EE17F6A884EC8CF5562A6E7 /* Pods_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4664E4FAFEC9B3DA23487FED /* Pods_Tests.framework */; };
+		9E0489001CAEADE200A1A0A9 /* NSMutableDictionary+TWGMutableDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E0488FF1CAEADE200A1A0A9 /* NSMutableDictionary+TWGMutableDictionary.m */; };
 		9E890D961A2F7E2A00C81C50 /* TWGBasicDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E890D911A2F7E2A00C81C50 /* TWGBasicDataSource.m */; };
 		B71E2FF41C888CC600BFDBCE /* NSString+TWGEmailValidatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71E2FF31C888CC600BFDBCE /* NSString+TWGEmailValidatorTests.swift */; };
 /* End PBXBuildFile section */
@@ -63,6 +64,8 @@
 		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
+		9E0488FF1CAEADE200A1A0A9 /* NSMutableDictionary+TWGMutableDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+TWGMutableDictionary.m"; sourceTree = "<group>"; };
+		9E0489021CAEAEB800A1A0A9 /* Tests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Bridging-Header.h"; sourceTree = "<group>"; };
 		9E890D901A2F7E2A00C81C50 /* TWGBasicDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWGBasicDataSource.h; sourceTree = "<group>"; };
 		9E890D911A2F7E2A00C81C50 /* TWGBasicDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWGBasicDataSource.m; sourceTree = "<group>"; };
 		B13633DAE7C94FAF8A18A0DB /* TWGExtensions.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TWGExtensions.podspec; path = ../TWGExtensions.podspec; sourceTree = "<group>"; };
@@ -176,6 +179,8 @@
 			children = (
 				6003F5B6195388D20070C39A /* Supporting Files */,
 				B71E2FF31C888CC600BFDBCE /* NSString+TWGEmailValidatorTests.swift */,
+				9E0488FF1CAEADE200A1A0A9 /* NSMutableDictionary+TWGMutableDictionary.m */,
+				9E0489021CAEAEB800A1A0A9 /* Tests-Bridging-Header.h */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -251,6 +256,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = TWG;
+				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "John Grant";
 				TargetAttributes = {
@@ -410,6 +416,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B71E2FF41C888CC600BFDBCE /* NSString+TWGEmailValidatorTests.swift in Sources */,
+				9E0489001CAEADE200A1A0A9 /* NSMutableDictionary+TWGMutableDictionary.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -583,6 +590,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Tests/Tests-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -606,6 +614,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Tests/Tests-Bridging-Header.h";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};

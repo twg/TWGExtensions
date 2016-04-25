@@ -215,6 +215,8 @@
 		F4C6E14E06ADDB10C490367105220F19 /* OCMInvocationStub.h in Headers */ = {isa = PBXBuildFile; fileRef = 84650581414B54A4CA523433586C805B /* OCMInvocationStub.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		F812C7F04BEBF56B35F8F29CC3D5B69B /* EXPMatchers+equal.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EBE9AF838F9760E71FBB580F29CCF1E /* EXPMatchers+equal.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		FA80A6F17449DC231366344460F04C14 /* EXPMatchers+beInstanceOf.h in Headers */ = {isa = PBXBuildFile; fileRef = 01BF55FE22F75DDD709606CD96F17B90 /* EXPMatchers+beInstanceOf.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA8D03BB1CCE6CC700769BE2 /* NSArray+Map.h in Headers */ = {isa = PBXBuildFile; fileRef = FA8D03B91CCE6CC700769BE2 /* NSArray+Map.h */; };
+		FA8D03BC1CCE6CC700769BE2 /* NSArray+Map.m in Sources */ = {isa = PBXBuildFile; fileRef = FA8D03BA1CCE6CC700769BE2 /* NSArray+Map.m */; };
 		FADE36A44C17344F76A758474284FE78 /* EXPBlockDefinedMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B7155301F0B69B076FB5809C54F4FF /* EXPBlockDefinedMatcher.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		FB60E8320C8612A57EFFAB0BA9CD245C /* EXPMatchers+beGreaterThanOrEqualTo.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D45201BCC202666E6AB3BF98210ACDD /* EXPMatchers+beGreaterThanOrEqualTo.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		FF41A0645EB69C5B4BA2EFB170B49DD0 /* EXPMatchers+beKindOf.m in Sources */ = {isa = PBXBuildFile; fileRef = B0091B373A9C60CD576CE2E30F20E97C /* EXPMatchers+beKindOf.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -501,6 +503,8 @@
 		F5646F3E8A2234FA22192180F4C62A73 /* Expecta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Expecta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6AA49F3C02DAF34A758587ED457FA46 /* OCMock-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OCMock-umbrella.h"; sourceTree = "<group>"; };
 		F94814563B7D7FFFEF42D520936AE623 /* NSObject+Expecta.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+Expecta.h"; path = "src/NSObject+Expecta.h"; sourceTree = "<group>"; };
+		FA8D03B91CCE6CC700769BE2 /* NSArray+Map.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Map.h"; sourceTree = "<group>"; };
+		FA8D03BA1CCE6CC700769BE2 /* NSArray+Map.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Map.m"; sourceTree = "<group>"; };
 		FB3130546335A62B252A1C06156F86F5 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Diff.m"; sourceTree = "<group>"; };
 		FD091090931AD6AB9A0C1739A28CCCA6 /* OCMVerifier.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCMVerifier.m; path = Source/OCMock/OCMVerifier.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -628,6 +632,8 @@
 				751D306813D5BBC5EE3DEA12840374DC /* NSArray+TWGExtensions.m */,
 				C16BC1FBB6D171D1367CAB240C8D3DFF /* NSArray+TWGGroup.h */,
 				B60AFB1028B95252D0C7ED1366BFEDB6 /* NSArray+TWGGroup.m */,
+				FA8D03B91CCE6CC700769BE2 /* NSArray+Map.h */,
+				FA8D03BA1CCE6CC700769BE2 /* NSArray+Map.m */,
 			);
 			path = NSArray;
 			sourceTree = "<group>";
@@ -1194,6 +1200,7 @@
 				FA80A6F17449DC231366344460F04C14 /* EXPMatchers+beInstanceOf.h in Headers */,
 				2DD7668AD6FE289E45C5D036EE8B227D /* EXPMatchers+beInTheRangeOf.h in Headers */,
 				65E3D3E37B13090B7A11CCC3B238C6DC /* EXPMatchers+beKindOf.h in Headers */,
+				FA8D03BB1CCE6CC700769BE2 /* NSArray+Map.h in Headers */,
 				4D5AE15920F71B30F675A5417A6384DD /* EXPMatchers+beLessThan.h in Headers */,
 				5D3E0FF32510DEF224701F9095CB9519 /* EXPMatchers+beLessThanOrEqualTo.h in Headers */,
 				9B471C85A50CA8530F59ACEAD311906B /* EXPMatchers+beNil.h in Headers */,
@@ -1424,6 +1431,7 @@
 				47CD13996BA03FE62302810A0A7728E3 /* EXPExpect.m in Sources */,
 				A7C84BCF661E816A17ADA400ED416FB6 /* EXPFloatTuple.m in Sources */,
 				25B2740BC491838C6F67A5A2D9DDCC53 /* EXPMatcherHelpers.m in Sources */,
+				FA8D03BC1CCE6CC700769BE2 /* NSArray+Map.m in Sources */,
 				2C5632E9E2A07959A5C7560DDE946E93 /* EXPMatchers+beCloseTo.m in Sources */,
 				5A642FE24202A89DDCB1343EF35B4E97 /* EXPMatchers+beFalsy.m in Sources */,
 				0F482C12328423677E1A9FBBA82C2E87 /* EXPMatchers+beginWith.m in Sources */,

@@ -26,6 +26,7 @@
 		9E0489001CAEADE200A1A0A9 /* NSMutableDictionary+TWGMutableDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E0488FF1CAEADE200A1A0A9 /* NSMutableDictionary+TWGMutableDictionary.m */; };
 		9E890D961A2F7E2A00C81C50 /* TWGBasicDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E890D911A2F7E2A00C81C50 /* TWGBasicDataSource.m */; };
 		B71E2FF41C888CC600BFDBCE /* NSString+TWGEmailValidatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71E2FF31C888CC600BFDBCE /* NSString+TWGEmailValidatorTests.swift */; };
+		FA8D03B81CCE634D00769BE2 /* TWGCircleViewSnapshotTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA8D03B71CCE634D00769BE2 /* TWGCircleViewSnapshotTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +74,7 @@
 		C7B1C2C9CE5523CD6193EF56 /* Pods-TWGExtensions.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TWGExtensions.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TWGExtensions/Pods-TWGExtensions.debug.xcconfig"; sourceTree = "<group>"; };
 		D734341398A39B659B080964 /* Pods_TWGExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TWGExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F323BAE25C284DB9A3267FF5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		FA8D03B71CCE634D00769BE2 /* TWGCircleViewSnapshotTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWGCircleViewSnapshotTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -181,6 +183,7 @@
 				B71E2FF31C888CC600BFDBCE /* NSString+TWGEmailValidatorTests.swift */,
 				9E0488FF1CAEADE200A1A0A9 /* NSMutableDictionary+TWGMutableDictionary.m */,
 				9E0489021CAEAEB800A1A0A9 /* Tests-Bridging-Header.h */,
+				FA8D03B71CCE634D00769BE2 /* TWGCircleViewSnapshotTests.m */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -415,6 +418,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA8D03B81CCE634D00769BE2 /* TWGCircleViewSnapshotTests.m in Sources */,
 				B71E2FF41C888CC600BFDBCE /* NSString+TWGEmailValidatorTests.swift in Sources */,
 				9E0489001CAEADE200A1A0A9 /* NSMutableDictionary+TWGMutableDictionary.m in Sources */,
 			);
@@ -491,6 +495,7 @@
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
+					"FB_REFERENCE_IMAGE_DIR=\"\\\"$(SOURCE_ROOT)/$(PROJECT_NAME)SnapshotTests/ReferenceImages\\\"\"",
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;

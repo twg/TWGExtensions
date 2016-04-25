@@ -2,7 +2,7 @@ PODS:
   - Expecta (0.3.1)
   - FBSnapshotTestCase (1.4)
   - OCMock (3.1.1)
-  - TWGExtensions (0.2.1)
+  - TWGExtensions (0.3.0)
 
 DEPENDENCIES:
   - Expecta
@@ -12,12 +12,12 @@ DEPENDENCIES:
 
 EXTERNAL SOURCES:
   TWGExtensions:
-    :path: "../"
+    :path: ../
 
 SPEC CHECKSUMS:
   Expecta: a354d4633409dd9fe8c4f5ff5130426adbe31628
   FBSnapshotTestCase: 892508495a69e8703bab36c9da7674ff740d41db
   OCMock: a73f69963a8a542b0b343e2617650e4dca0cbbc2
-  TWGExtensions: 2d139a4fce8c47abba3d259d7ba9e8dd79c0f681
+  TWGExtensions: a6148e220c2b148e804a6da1ef792a98cc58240d
 
 COCOAPODS: 0.39.0

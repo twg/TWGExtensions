@@ -215,6 +215,8 @@
 		F4C6E14E06ADDB10C490367105220F19 /* OCMInvocationStub.h in Headers */ = {isa = PBXBuildFile; fileRef = 84650581414B54A4CA523433586C805B /* OCMInvocationStub.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		F812C7F04BEBF56B35F8F29CC3D5B69B /* EXPMatchers+equal.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EBE9AF838F9760E71FBB580F29CCF1E /* EXPMatchers+equal.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		FA80A6F17449DC231366344460F04C14 /* EXPMatchers+beInstanceOf.h in Headers */ = {isa = PBXBuildFile; fileRef = 01BF55FE22F75DDD709606CD96F17B90 /* EXPMatchers+beInstanceOf.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA8D03D31CCE91D900769BE2 /* UIViewController+TWGDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = FA8D03C21CCE73E700769BE2 /* UIViewController+TWGDebug.m */; };
+		FA8D03D41CCE91F300769BE2 /* UIViewController+TWGDebug.h in Headers */ = {isa = PBXBuildFile; fileRef = FA8D03C11CCE73E700769BE2 /* UIViewController+TWGDebug.h */; };
 		FADE36A44C17344F76A758474284FE78 /* EXPBlockDefinedMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B7155301F0B69B076FB5809C54F4FF /* EXPBlockDefinedMatcher.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		FB60E8320C8612A57EFFAB0BA9CD245C /* EXPMatchers+beGreaterThanOrEqualTo.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D45201BCC202666E6AB3BF98210ACDD /* EXPMatchers+beGreaterThanOrEqualTo.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		FF41A0645EB69C5B4BA2EFB170B49DD0 /* EXPMatchers+beKindOf.m in Sources */ = {isa = PBXBuildFile; fileRef = B0091B373A9C60CD576CE2E30F20E97C /* EXPMatchers+beKindOf.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -501,6 +503,8 @@
 		F5646F3E8A2234FA22192180F4C62A73 /* Expecta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Expecta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6AA49F3C02DAF34A758587ED457FA46 /* OCMock-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OCMock-umbrella.h"; sourceTree = "<group>"; };
 		F94814563B7D7FFFEF42D520936AE623 /* NSObject+Expecta.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+Expecta.h"; path = "src/NSObject+Expecta.h"; sourceTree = "<group>"; };
+		FA8D03C11CCE73E700769BE2 /* UIViewController+TWGDebug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+TWGDebug.h"; sourceTree = "<group>"; };
+		FA8D03C21CCE73E700769BE2 /* UIViewController+TWGDebug.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+TWGDebug.m"; sourceTree = "<group>"; };
 		FB3130546335A62B252A1C06156F86F5 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Diff.m"; sourceTree = "<group>"; };
 		FD091090931AD6AB9A0C1739A28CCCA6 /* OCMVerifier.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCMVerifier.m; path = Source/OCMock/OCMVerifier.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -934,6 +938,7 @@
 				09423A88F4C78607045E300876BCAC54 /* UILabel */,
 				8B7405C29F8238EE6495070F3315AF82 /* UITableViewCell */,
 				6786C464C7457AE635B041500665355C /* UIView */,
+				FA8D03C01CCE732A00769BE2 /* UIViewController */,
 				C5E7FA671C931A5F00B0474F /* NSObject */,
 			);
 			path = Classes;
@@ -1079,6 +1084,15 @@
 			path = "../Target Support Files/FBSnapshotTestCase";
 			sourceTree = "<group>";
 		};
+		FA8D03C01CCE732A00769BE2 /* UIViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FA8D03C11CCE73E700769BE2 /* UIViewController+TWGDebug.h */,
+				FA8D03C21CCE73E700769BE2 /* UIViewController+TWGDebug.m */,
+			);
+			path = UIViewController;
+			sourceTree = "<group>";
+		};
 		FC6F001BD1B790885AFC4786742253ED /* NSNumberFormatter */ = {
 			isa = PBXGroup;
 			children = (
@@ -1146,6 +1160,7 @@
 				BE8017F40F4D6A05CE8CA73C144C85DB /* NSArray+TWGExtensions.h in Headers */,
 				8699283FFB52197AA698A42AA59CD292 /* NSArray+TWGGroup.h in Headers */,
 				60AF058073E2513E48C4EE9533E08E8A /* NSDateFormatter+TWGFormatter.h in Headers */,
+				FA8D03D41CCE91F300769BE2 /* UIViewController+TWGDebug.h in Headers */,
 				28B5B0286E7923596A45DC420E5D0E25 /* NSLayoutConstraint+TWGConstraints.h in Headers */,
 				361F8149CF38B7AF49ADBFC1BB9DE6EF /* NSNumberFormatter+TWGFormatter.h in Headers */,
 				4E4CB49C56AC2528B171F59B9966D78F /* NSProcessInfo+TWGOsVersionChecker.h in Headers */,
@@ -1397,6 +1412,7 @@
 				80E7166AFE85847F4706650422D602EC /* TWGLoadingIndicator.m in Sources */,
 				B6F3A75496E902E06412F5E02B809335 /* UIColor+TWGHex.m in Sources */,
 				7A325DE00F6C0D9AD0CDAF5D97E1CADE /* UIDevice+TWGDevice.m in Sources */,
+				FA8D03D31CCE91D900769BE2 /* UIViewController+TWGDebug.m in Sources */,
 				55C8CE99DE18F23631A857C4E6D81D18 /* UIImage+TWGColor.m in Sources */,
 				90EB4124710D65A162CD65D965A4C201 /* UIImage+TWGImage.m in Sources */,
 				0076F5FAD93E9B051627D3B6DC23C21D /* UIImage+TWGSizing.m in Sources */,

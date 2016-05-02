@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "TWGExtensions"
-  s.version          = "0.3.0"
+  s.version          = "0.3.1"
   s.summary          = "A collection of useful categories."
   s.description      = <<-DESC
                        TWG developed categories and extensions on foundation. Useful for resulable code

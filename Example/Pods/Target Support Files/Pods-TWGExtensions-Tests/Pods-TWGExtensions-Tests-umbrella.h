@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_TWGExtensionsVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_TWGExtensionsVersionString[];
+FOUNDATION_EXPORT double Pods_TWGExtensions_TestsVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_TWGExtensions_TestsVersionString[];
 

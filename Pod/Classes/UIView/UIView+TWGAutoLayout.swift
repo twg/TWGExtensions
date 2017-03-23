@@ -2,22 +2,22 @@ import UIKit
 
 public extension UIView {
     func constraintsForViewToAllEdges(
-        view: UIView,
-        insets: UIEdgeInsets = UIEdgeInsetsZero
+        _ view: UIView,
+        insets: UIEdgeInsets = .zero
         ) -> [NSLayoutConstraint] {
-            let edges: [NSLayoutAttribute] = [.Leading, .Trailing, .Top, .Bottom]
+            let edges: [NSLayoutAttribute] = [.leading, .trailing, .top, .bottom]
             return self.constraintsForView(view, edges: edges, insets: insets)
     }
     
-    func constrainViewToAllEdges(view: UIView, insets: UIEdgeInsets = UIEdgeInsetsZero) {
-        let edges: [NSLayoutAttribute] = [.Leading, .Trailing, .Top, .Bottom]
+    func constrainViewToAllEdges(_ view: UIView, insets: UIEdgeInsets = .zero) {
+        let edges: [NSLayoutAttribute] = [.leading, .trailing, .top, .bottom]
         self.constrainView(view, edges: edges, insets: insets)
     }
     
     func constrainView(
-        view: UIView,
+        _ view: UIView,
         edges: [NSLayoutAttribute],
-        insets: UIEdgeInsets = UIEdgeInsetsZero,
+        insets: UIEdgeInsets = .zero,
         priority: Float? = nil
         ) {
             
@@ -31,7 +31,7 @@ public extension UIView {
     }
     
     func constraintsForView(
-        view: UIView,
+        _ view: UIView,
         edges: [NSLayoutAttribute],
         insets: UIEdgeInsets,
         priority: Float? = nil
@@ -42,9 +42,9 @@ public extension UIView {
     }
     
     func constrainView(
-        view: UIView,
+        _ view: UIView,
         toEdge edge: NSLayoutAttribute,
-        insets: UIEdgeInsets = UIEdgeInsetsZero,
+        insets: UIEdgeInsets = .zero,
         priority: Float?
         ) -> NSLayoutConstraint {
             
@@ -52,10 +52,10 @@ public extension UIView {
             
             let inset: CGFloat = {
                 switch edge {
-                case .Leading: return insets.left
-                case .Trailing: return -1 * insets.right
-                case .Bottom: return -1 * insets.bottom
-                case .Top: return insets.top
+                case .leading: return insets.left
+                case .trailing: return -1 * insets.right
+                case .bottom: return -1 * insets.bottom
+                case .top: return insets.top
                 default: return 0
                 }
             }()
@@ -63,7 +63,7 @@ public extension UIView {
             let constraint = NSLayoutConstraint(
                 item: view,
                 attribute: edge,
-                relatedBy: .Equal,
+                relatedBy: .equal,
                 toItem: self,
                 attribute: edge,
                 multiplier: 1,

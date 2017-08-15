@@ -18,7 +18,7 @@ public extension UIView {
         _ view: UIView,
         edges: [NSLayoutAttribute],
         insets: UIEdgeInsets = .zero,
-        priority: Float? = nil
+        priority: UILayoutPriority? = nil
         ) {
             
             let constraints = self.constraintsForView(
@@ -34,7 +34,7 @@ public extension UIView {
         _ view: UIView,
         edges: [NSLayoutAttribute],
         insets: UIEdgeInsets,
-        priority: Float? = nil
+        priority: UILayoutPriority? = nil
         ) -> [NSLayoutConstraint] {
             return edges.map({ (edge) -> NSLayoutConstraint in
                 return self.constrainView(view, toEdge: edge, insets: insets, priority: priority)
@@ -45,7 +45,7 @@ public extension UIView {
         _ view: UIView,
         toEdge edge: NSLayoutAttribute,
         insets: UIEdgeInsets = .zero,
-        priority: Float?
+        priority: UILayoutPriority?
         ) -> NSLayoutConstraint {
             
             view.translatesAutoresizingMaskIntoConstraints = false
